@@ -15,8 +15,7 @@ const experiences = [
       "Improved accuracy rate from 85% to 98% by tracking non-conformances and recurring product issues, reporting to the leadership team.",
       "Reduced service time from 190 to 140 seconds by analysing workflow bottlenecks and coordinating task sequencing."
     ],
-    focus: ["Variance Analysis", "Process Optimization", "Workflow Analysis", "Team Coordination", "Performance Tracking"],
-    proofs: []
+    focus: ["Variance Analysis", "Process Optimization", "Workflow Analysis", "Team Coordination", "Performance Tracking"]
   }
 ];
 
@@ -74,27 +73,6 @@ export function Experience() {
                         </div>
                       </div>
 
-                      {exp.proofs.length > 0 && (
-                        <div className="border-t border-white/10 pt-6">
-                          <h5 className="text-sm font-bold text-[#F9FAFB] uppercase tracking-wider mb-4">Proof Assets</h5>
-                          <div className="flex flex-wrap gap-3">
-                            {exp.proofs.map((proof, pIdx) => (
-                              <motion.a
-                                key={pIdx}
-                                href={proof.file}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                whileHover={{ scale: 1.05 }}
-                                whileTap={{ scale: 0.95 }}
-                                className="flex items-center gap-2 px-4 py-2 bg-white/5 hover:bg-white/10 border border-white/10 rounded-lg text-sm text-[#3B82F6] font-medium transition-colors"
-                              >
-                                <FileBadge className="w-4 h-4" />
-                                {proof.label}
-                              </motion.a>
-                            ))}
-                          </div>
-                        </div>
-                      )}
 
                     </GlassCard>
                   </div>
