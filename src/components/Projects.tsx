@@ -21,7 +21,7 @@ const featuredProjects = [
     ],
     architecture: "Toast/R365/HubSpot → Python ETL → PostgreSQL → Power BI Dashboard",
     tech: ["Power BI", "SQL", "PostgreSQL", "Python", "ETL"],
-    link: "https://github.com"
+    link: "https://github.com/vamshigannoju007/Restaurant_Performance_Model"
   },
   {
     title: "Superstore Performance Dashboard",
@@ -33,7 +33,7 @@ const featuredProjects = [
     ],
     architecture: "Raw Data → Power Query → Star Schema → DAX Measures → Dashboard",
     tech: ["Power BI", "DAX", "SQL", "Power Query"],
-    link: "https://github.com"
+    link: "https://github.com/vamshigannoju007/Superstore-"
   },
   {
     title: "E-Commerce Sales Performance Dashboard",
@@ -45,7 +45,7 @@ const featuredProjects = [
     ],
     architecture: "Raw CSV → Excel Pivot Tables → Interactive Dashboard",
     tech: ["Excel", "Pivot Tables", "Data Visualization", "VLOOKUP"],
-    link: "https://github.com"
+    link: "https://github.com/vamshigannoju007/Advanced-Excel-Project"
   }
 ];
 
