@@ -7,7 +7,7 @@ import { MagneticButton } from "./ui/MagneticButton";
 
 export function Hero() {
   return (
-    <section id="home" className="relative min-h-[90vh] flex flex-col items-center justify-center text-center px-6 overflow-hidden">
+    <section id="home" className="relative min-h-[90vh] pt-32 flex flex-col items-center justify-center text-center px-6 overflow-hidden">
       {/* Immersive Spatial Background */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-[#3B82F6]/20 rounded-full blur-[150px] mix-blend-screen opacity-50 animate-pulse-slow" />
