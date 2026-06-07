@@ -11,7 +11,7 @@ export function Contact() {
       <div className="container mx-auto px-6 max-w-5xl">
         <SectionHeader 
           title="Initiate Contact" 
-          subtitle="Interested in backend architecture, AI systems, or scalable software engineering? Let's connect."
+          subtitle="Interested in data analytics, business intelligence, or dashboard development? Let's connect."
         />
 
         <div className="flex flex-col md:flex-row gap-12">
