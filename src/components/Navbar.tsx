@@ -36,11 +36,17 @@ export function Navbar() {
   }, []);
 
   return (
-    <motion.header
-      initial={{ y: -100 }}
-      animate={{ y: 0 }}
-      transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-      className={`fixed top-0 inset-x-0 z-50 transition-all duration-500 border-b ${
+    <>
+      <div className="fixed top-0 inset-x-0 z-[60] bg-gradient-to-r from-[#3B82F6] to-[#06B6D4] flex items-center justify-center h-[36px]">
+        <span className="text-sm font-semibold text-white tracking-wide">
+          Available for Data Analytics Roles
+        </span>
+      </div>
+      <motion.header
+        initial={{ y: -100 }}
+        animate={{ y: 0 }}
+        transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+        className={`fixed top-[36px] inset-x-0 z-50 transition-all duration-500 border-b ${
         scrolled 
           ? "py-4 bg-[#030712]/70 backdrop-blur-xl border-white/5 shadow-[0_4px_30px_rgba(0,0,0,0.3)]" 
           : "py-6 bg-transparent border-transparent"
@@ -94,5 +100,6 @@ export function Navbar() {
         </div>
       </div>
     </motion.header>
+    </>
   );
 }
