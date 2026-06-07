@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { FileText } from "lucide-react";
+import { FileText, Briefcase } from "lucide-react";
 import { MagneticButton } from "./ui/MagneticButton";
 
 export function Hero() {
