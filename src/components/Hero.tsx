@@ -60,10 +60,11 @@ export function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, ease: [0.16, 1, 0.3, 1], delay: 0.4 }}
-          className="flex flex-wrap justify-center gap-4"
+          className="flex flex-wrap justify-center gap-4 pt-4"
         >
           <MagneticButton variant="primary" href="#projects">
-            View Projects
+            <Briefcase className="w-5 h-5" />
+            View My Work
           </MagneticButton>
           
           <MagneticButton variant="glass" href="/Vamshi_Gannoju_Resume.pdf" target="_blank" rel="noopener noreferrer">
@@ -71,11 +72,11 @@ export function Hero() {
             Download Resume
           </MagneticButton>
 
-          <MagneticButton variant="glass" className="px-4" href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <MagneticButton variant="glass" className="px-4" href="https://github.com/vamshigannoju007" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
             <FaGithub className="w-5 h-5" />
           </MagneticButton>
 
-          <MagneticButton variant="glass" className="px-4" href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <MagneticButton variant="glass" className="px-4" href="https://linkedin.com/in/vamshi-gannoju" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
             <FaLinkedin className="w-5 h-5" />
           </MagneticButton>
         </motion.div>
